@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+header .title img {
+    height: 30px;
+}
+
+header .title img:hover {
+    outline: 1px solid #ff0000;
+    cursor: pointer;
+}
+
+header .title span{
+    font-size: 40px;
+}
+
+header .title span:after {
+    content: '';
+    display: block;
+    border-top: 3px solid #000;
+    width: 170px;
+    margin: 20px auto;
+}
+
+.stydents {
+    width: 30%;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.stydents p{
+    margin: 5px 30px;
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    text-overflow: ellipsis; /* Многоточие */
+}
+
+.stydents span{
+    line-height: 0.2;
+    font-size: 0.8em;
+    color: grey;
+}
+
+.stydents img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}     
